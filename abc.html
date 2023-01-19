@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  tbody td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .statement-period-container {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin:  0 3.5rem 1rem 3.5rem;
+  }
+  .customer-info-column{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .account-details-title {
+    font-weight: 600;
+    color: #34495E;
+    font-size: 20px;
+  }
+  .account-details-container{
+    padding: 1rem ;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0 4rem 1rem 4rem;
+  }
+  .main {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  .parent{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .child{
+    flex: 33%;
+    box-sizing: border-box;
+    margin: 1rem 0;
+  }
+  </style>
+</head>
+<body>
+    <div>
+      
+      <h1 style="color:#34495E; text-align: center;">Account Summary</h1>
+      <img src="https://logos-world.net/wp-content/uploads/2020/10/Free-Logo.png" heigtt=100 width=100 />
+      <div class="statement-period-container">
+        <div>
+          Period: 20/07/2018 to 18/01/2023
+        </div>
+        <div>
+          Statement Date: 18/01/2023
+        </div>
+      </div>
+      <div class="account-details-container">
+        <div class="account-details-title">
+          Account Details
+        </div>
+        <div class="parent">
+          <div class="child">
+            <span>Customer Name:</span>
+            <span> Test Dev</span>
+          </div>
+          <div class="child">
+            <span>Customer Name:</span>
+            <span> Test Dev</span>
+          </div>
+          <div class="child">
+            <span>Customer Name</span>
+            <span> Test Dev</span>
+          </div>
+        </div>
+      </div>
+      <div  style="height: 10px; background-color: red; margin-top: -20px;"></div>
+      <table id="table">
+        <thead  class="tableHeader">
+          <th>Date</th>
+          <th>Transaction Type</th>
+          <th>Transaction ID</th>
+          <th>Current Amount</th>
+          <th>Current Balance</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+          <tr>
+            <td>
+              17-12-2021
+            </td>
+            <td> Bill</td>
+            <td>236532467034</td>
+            <td>$135.84</td>
+            <td>$241.43</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>
